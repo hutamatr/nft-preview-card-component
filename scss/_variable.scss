@@ -1,0 +1,40 @@
+/*=============== VARIABLES CSS ===============*/
+
+$header-height: 3.5rem;
+
+/*========== Colors ==========*/
+$hue: 14;
+$primary-color: hsl(215, 51%, 70%);
+$primary-color-alt: hsl(178, 100%, 50%);
+$background-color: hsl(217, 54%, 11%);
+$card-color: hsl(216, 50%, 16%);
+$line-color: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+/*========== Font and typography ==========*/
+$body-font: 'Outfit', sans-serif;
+$biggest-font-size: 2rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normal-font-size: 1.125rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+
+/*========== Font weight ==========*/
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-black: 900;
+
+/*========== Margin Bottom ==========*/
+$mb-0-25: 0.25rem;
+$mb-0-5: 0.5rem;
+$mb-0-75: 0.75rem;
+$mb-1: 1rem;
+$mb-1-5: 1.5rem;
+$mb-2: 2rem;
+$mb-2-5: 2.5rem;
+
+/*========== z index ==========*/
+$z-tooltip: 10;
+$z-fixed: 100;
