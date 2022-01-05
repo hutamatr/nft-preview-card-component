@@ -1,0 +1,63 @@
+.card {
+  &__container {
+    padding: $mb-1-5;
+    background-color: $card-color;
+    border-radius: 1rem;
+    position: relative;
+    row-gap: $mb-1-5;
+  }
+
+  &__image {
+    width: 350px;
+    justify-self: center;
+    border-radius: 0.5rem;
+  }
+
+  &__data {
+    row-gap: 1rem;
+
+    &--title {
+      font-size: $h2-font-size;
+    }
+
+    &--description {
+      font-size: $normal-font-size;
+      font-weight: $font-medium;
+    }
+  }
+
+  &__prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--content,
+    &--estimate {
+      display: inline-flex;
+      gap: 0.5rem;
+    }
+  }
+
+  &__line {
+    width: 100%;
+    display: block;
+    height: 2px;
+    background-color: $line-color;
+  }
+
+  &__creation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+
+    &--img {
+      height: 2rem;
+      border: 1px solid $white;
+      border-radius: 50%;
+    }
+    &--caption {
+      font-size: $normal-font-size;
+    }
+  }
+}

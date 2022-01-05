@@ -24,7 +24,7 @@ body {
   font-family: "Outfit", sans-serif;
   font-size: 1.125rem;
   background: #0d192b;
-  color: #2f415b;
+  color: #8bacda;
 }
 
 h1,
@@ -32,7 +32,6 @@ h2,
 h3,
 h4 {
   color: white;
-  font-weight: 600;
 }
 
 ul {
@@ -62,7 +61,7 @@ button {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 4.5rem 0 2rem;
+  padding: 1rem 0 3rem;
 }
 
 .section__title {
@@ -74,8 +73,8 @@ button {
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .grid {
@@ -85,4 +84,74 @@ button {
 .main {
   overflow: hidden;
   /*For animation*/
+}
+
+.card__container {
+  padding: 1.5rem;
+  background-color: #14253d;
+  border-radius: 1rem;
+  position: relative;
+  row-gap: 1.5rem;
+}
+.card__image {
+  width: 350px;
+  justify-self: center;
+  border-radius: 0.5rem;
+}
+.card__data {
+  row-gap: 1rem;
+}
+.card__data--title {
+  font-size: 1.25rem;
+}
+.card__data--description {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+.card__prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card__prices--content, .card__prices--estimate {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5rem;
+}
+.card__line {
+  width: 100%;
+  display: block;
+  height: 2px;
+  background-color: #2f415b;
+}
+.card__creation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+.card__creation--img {
+  height: 2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.card__creation--caption {
+  font-size: 1.125rem;
+}
+
+.footer__card {
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
