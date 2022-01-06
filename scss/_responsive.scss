@@ -1,0 +1,14 @@
+@media screen and(min-width : 321px) {
+  .container {
+    max-width: 300px;
+  }
+  .card {
+    margin: 50px auto;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}

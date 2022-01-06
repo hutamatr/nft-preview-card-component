@@ -13,7 +13,12 @@
     <main class="main">
       <section class="card section container">
         <div class="card__container grid">
-          <img src="images/image-equilibrium.jpg" alt="" class="card__image" />
+          <div class="card__img">
+            <img src="images/image-equilibrium.jpg" alt="" class="card__img--1" />
+            <div class="card__overlay">
+              <img src="images/icon-view.svg" alt="" class="card__img--2" />
+            </div>
+          </div>
 
           <div class="card__data grid">
             <h2 class="card__data--title">Equilibrium #3429</h2>
@@ -35,13 +40,15 @@
 
             <div class="card__creation">
               <img src="images/image-avatar.png" alt="" class="card__creation--img" />
-              <p class="card__creation--caption">Creation of Jules Wyvern</p>
+              <p class="card__creation--caption">Creation of <span>Jules Wyvern</span></p>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer__card">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://twitter.com/huutamatr" target="_blank">Hutama Trirahmanto</a>.</footer>
+    <footer class="footer section">
+      <div class="footer__card container">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://twitter.com/huutamatr" target="_blank">Hutama Trirahmanto</a>.</div>
+    </footer>
   </body>
 </html>

@@ -4,12 +4,14 @@ $header-height: 3.5rem;
 
 /*========== Colors ==========*/
 $hue: 14;
-$primary-color: hsl(215, 51%, 70%);
-$primary-color-alt: hsl(178, 100%, 50%);
-$background-color: hsl(217, 54%, 11%);
-$card-color: hsl(216, 50%, 16%);
+$title-color: hsl(215, 51%, 70%);
+$title-color-alt: hsl(178, 100%, 50%);
+$main-background: hsl(217, 54%, 11%);
+$card-background: hsl(216, 50%, 16%);
 $line-color: hsl(215, 32%, 27%);
 $white: hsl(0, 0%, 100%);
+
+$shadow: 15px 20px 15px $main-background, -15px 20px 15px $main-background, 15px 20px 25px $card-background, -15px 20px 25px $card-background;
 
 /*========== Font and typography ==========*/
 $body-font: 'Outfit', sans-serif;
@@ -18,7 +20,7 @@ $h1-font-size: 1.5rem;
 $h2-font-size: 1.25rem;
 $h3-font-size: 1rem;
 $normal-font-size: 1.125rem;
-$small-font-size: 0.813rem;
+$small-font-size: 0.938rem;
 $smaller-font-size: 0.75rem;
 
 /*========== Font weight ==========*/

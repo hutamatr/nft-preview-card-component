@@ -1,15 +1,50 @@
 .card {
   &__container {
     padding: $mb-1-5;
-    background-color: $card-color;
+    background-color: $card-background;
     border-radius: 1rem;
     position: relative;
     row-gap: $mb-1-5;
+    box-shadow: $shadow;
+    margin-bottom: 2rem;
   }
 
-  &__image {
-    width: 350px;
-    justify-self: center;
+  &__img {
+    position: relative;
+    cursor: pointer;
+
+    &--1 {
+      border-radius: 0.5rem;
+      display: block;
+      width: 100%;
+      height: auto;
+      backface-visibility: hidden;
+    }
+
+    &--2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 2rem;
+    }
+
+    &:hover .card__overlay {
+      opacity: 0.6;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: $title-color-alt;
     border-radius: 0.5rem;
   }
 
@@ -18,10 +53,17 @@
 
     &--title {
       font-size: $h2-font-size;
+      font-weight: $font-semi-bold;
+      transition: 0.4s;
+      cursor: pointer;
+
+      &:hover {
+        color: $title-color-alt;
+      }
     }
 
     &--description {
-      font-size: $normal-font-size;
+      font-size: $small-font-size;
       font-weight: $font-medium;
     }
   }
@@ -31,9 +73,20 @@
     justify-content: space-between;
     align-items: center;
 
+    &--img {
+      height: 1rem;
+    }
+
+    &--price {
+      color: $title-color-alt;
+      font-size: $small-font-size;
+    }
+
     &--content,
     &--estimate {
       display: inline-flex;
+      justify-content: center;
+      align-items: center;
       gap: 0.5rem;
     }
   }
@@ -57,7 +110,17 @@
       border-radius: 50%;
     }
     &--caption {
-      font-size: $normal-font-size;
+      font-size: $small-font-size;
+
+      & span {
+        color: $white;
+        cursor: pointer;
+        transition: 0.4s;
+
+        &:hover {
+          color: $title-color-alt;
+        }
+      }
     }
   }
 }
