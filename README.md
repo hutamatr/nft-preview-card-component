@@ -26,7 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](images\screenshot.PNG)
+![ScreenShot 1](https://github.com/hutamatr/nft-preview-card-component/blob/master/images/mobile.png)
+
+![ScreenShot 2](https://github.com/hutamatr/nft-preview-card-component/blob/master/images/dekstop.png)
 
 ### Links
 
