@@ -13,7 +13,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - [My process](#my-process)
   - [Built with](#built-with) -[Editor](#editor)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -33,10 +32,6 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-
-## My process
-
-Let me walk you through how I solved the challenge
 
 ### Built with
 
