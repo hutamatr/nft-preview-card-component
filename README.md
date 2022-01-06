@@ -44,6 +44,7 @@ Users should be able to:
 - SCSS
 - Flexbox
 - CSS Grid
+- BEM
 - Mobile-first workflow
 
 #### Editor
