@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-with-flexbox-grid-scss-bem-mobile-first-uCkz9wp5t)
+- Live Site URL: [Demo](https://hutamatr.github.io/nft-preview-card-component/)
 
 ## My process
 
